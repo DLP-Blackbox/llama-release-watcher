@@ -48,9 +48,5 @@ Images are published with the following naming scheme:
 
 | Image Type | CUDA Version | General Tag | Versioned Tag |
 | :--- | :--- | :--- | :--- |
-| **Full** | 12 | `full-cuda` / `full-cuda12` | `full-cuda12-<tag>` |
-| **Full** | 13 | `full-cuda13` | `full-cuda13-<tag>` |
-| **Light** | 12 | `light-cuda` / `light-cuda12` | `light-cuda12-<tag>` |
-| **Light** | 13 | `light-cuda13` | `light-cuda13-<tag>` |
 | **Server** | 12 | `server-cuda` / `server-cuda12` | `server-cuda12-<tag>` |
 | **Server** | 13 | `server-cuda13` | `server-cuda13-<tag>` |
