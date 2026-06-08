@@ -9,6 +9,7 @@ This project solves the need for automated, consistent Docker images of `llama.c
 ### Key Features
 - **Automated Polling:** Checks for new `llama.cpp` releases every hour.
 - **Targeted Builds:** Focuses specifically on **CUDA 12** and **CUDA 13** for Linux `amd64`.
+- **Optimized Builds:** Limits CUDA compilation to modern architectures (Ampere, Ada, Hopper) to reduce build time and suppress legacy warnings.
 - **Multi-Variant Support:** Builds `full`, `light`, and `server` image targets.
 - **Upstream Integrity:** Instead of mirroring code, the workflow clones the upstream repository at the specific release tag during the build process, ensuring 100% parity with official releases.
 - **Smart Tagging:** Automatically creates multi-arch manifest tags and version-specific tags.
